@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #f1ff2eea;
+}
+.nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav img{
+    height: 30px;
+    width: auto;
+    margin-right: 280px;
+    cursor: pointer;
+}
+.nav-part-1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav-part-1 ul li{
+    margin-right: 80px;
+    font-size: 16px;
+    font-weight: 530;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav-part-2 i{
+    margin-right: 40px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.text-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contant img{
+    width: 280px;
+    height: 100%;
+    margin: 50px;
+    border-radius: 56px;
+}
+
+.content, h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    margin: 0px 40px;
+}
+.content, h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px              ;
+    margin: 0px 40px;
+}
+.btn{
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 20px 80px;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-2{
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400px;
+    border-radius: 18px;
+    border: none;
+    margin: 20px 0px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.text-right{
+    font-size: 28px;
+    padding: 50px 20px;
+    margin: 20px 60px;
+}
